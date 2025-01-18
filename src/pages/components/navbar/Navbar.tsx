@@ -1,9 +1,9 @@
 import "./navbar.css";
 import Nav0 from "./Nav0";
+import Nav1 from "./Nav1Up";
 import Nav2 from "./Nav2";
 import Nav3 from "./Nav3";
 import NavMotion1 from "./NavMotion1";
-import Nav1 from "./Nav1";
 
 export default function Navbar() {
   return (

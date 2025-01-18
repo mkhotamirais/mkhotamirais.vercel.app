@@ -2,7 +2,7 @@ import { useState } from "react";
 import { navMenu } from "./navMenu";
 import { FaBars, FaXmark } from "react-icons/fa6";
 
-export default function Nav1() {
+export default function Nav1Up() {
   const [open, setOpen] = useState(false);
 
   return (
