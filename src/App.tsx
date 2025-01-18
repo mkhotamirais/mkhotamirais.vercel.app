@@ -13,7 +13,6 @@ import UseReducer from "./pages/react/UseReducer";
 import UseRef from "./pages/react/UseRef";
 import Motion from "./pages/animate/motion/Motion";
 import Navbar from "./pages/components/navbar/Navbar";
-import Navbar2 from "./pages/components/navbar2/Navbar2";
 import { Toaster } from "react-hot-toast";
 import { CopyAlert } from "./pages/tips/CopyAlert";
 import ObjectTips from "./pages/tips/ObjectTips";
@@ -31,7 +30,6 @@ export default function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/pagination" element={<Pagination />} />
         <Route path="/navbar" element={<Navbar />} />
-        <Route path="/navbar2" element={<Navbar2 />} />
         {/* apps */}
         <Route path="/clock" element={<Clock />} />
         <Route path="/stopwatch" element={<Stopwatch />} />

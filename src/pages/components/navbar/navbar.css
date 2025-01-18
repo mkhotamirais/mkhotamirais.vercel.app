@@ -1,0 +1,4 @@
+.mobile-nav-0.active,
+.mobile-nav-3.active {
+  height: calc-size(auto, size);
+}
