@@ -3,6 +3,7 @@ export const menus = [
   { href: "/accordion", label: "accordion", category: "components" },
   { href: "/pagination", label: "pagination", category: "components" },
   { href: "/navbar", label: "navbar", category: "components" },
+  { href: "/form", label: "form", category: "components" },
   // others
   { href: "/clock", label: "clock", category: "others" },
   { href: "/stopwatch", label: "stopwatch", category: "others" },

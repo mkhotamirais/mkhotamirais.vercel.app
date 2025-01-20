@@ -19,6 +19,7 @@ import ObjectTips from "./pages/tips/ObjectTips";
 import Sticky from "./pages/tips/Sticky";
 import UseInView from "./pages/tips/use-in-view/UseInView";
 import Gsap from "./pages/animate/gsap/Gsap";
+import Form from "./pages/components/form/Form";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/pagination" element={<Pagination />} />
         <Route path="/navbar" element={<Navbar />} />
+        <Route path="/form" element={<Form />} />
         {/* apps */}
         <Route path="/clock" element={<Clock />} />
         <Route path="/stopwatch" element={<Stopwatch />} />
